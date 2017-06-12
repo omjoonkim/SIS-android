@@ -18,7 +18,7 @@ dagger2, rx-java2, rx-lifecycle을 이용하여 MVVM 구조로 이루어져 있�
 
 이슈와 피드백은 언제나 환영입니다!  
 
-https://github.com/8hourmakers/SIS-android/issues  에 올려주세요!!
+https://github.com/omjoonkim/SIS-android/issues  에 올려주세요!!
 
 
 
