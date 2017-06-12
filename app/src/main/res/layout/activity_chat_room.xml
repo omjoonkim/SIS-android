@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#1ed7d7d7"
+				android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+		android:id="@+id/appBarLayout"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		app:elevation="0dp">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#fff"/>
+	</android.support.design.widget.AppBarLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recyclerView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/relativeLayout_comment"
+		android:layout_below="@+id/appBarLayout"
+		android:clipToPadding="false"
+		android:paddingBottom="16dp"
+		android:paddingTop="16dp"/>
+
+	<RelativeLayout
+		android:id="@+id/relativeLayout_comment"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="#fff">
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#72969696"
+			/>
+
+		<EditText
+			android:id="@+id/editText_comment"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/button_postChat"
+			android:background="@null"
+			android:gravity="center_vertical"
+			android:hint="댓글을 입력하세요..."
+			android:maxLines="5"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:textColor="#4a4a4a"
+			android:textColorHint="#dc9b9b9b"
+			android:textSize="14sp"/>
+
+		<Button
+			android:id="@+id/button_postChat"
+			android:layout_width="wrap_content"
+			android:layout_height="54dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:background="?attr/selectableItemBackground"
+			android:enabled="false"
+			android:text="전송"
+			android:textColor="#4a4a4a"/>
+	</RelativeLayout>
+</RelativeLayout>

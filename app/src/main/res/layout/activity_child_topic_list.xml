@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+												 xmlns:app="http://schemas.android.com/apk/res-auto"
+												 android:layout_width="match_parent"
+												 android:layout_height="match_parent"
+												 android:fitsSystemWindows="true">
+
+	<android.support.design.widget.AppBarLayout
+		android:id="@+id/appBarLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:elevation="0dp">
+
+		<android.support.design.widget.CollapsingToolbarLayout
+			android:id="@+id/collapsingToolbarLayout01"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:fitsSystemWindows="true"
+			app:contentScrim="@color/white"
+			app:expandedTitleGravity="bottom|left"
+			app:expandedTitleMarginBottom="128dp"
+			app:expandedTitleMarginStart="34dp"
+			app:expandedTitleTextAppearance="@style/CollapsedAppBarExpand"
+			app:collapsedTitleTextAppearance="@style/CollapsedAppBarCollapse"
+			app:layout_scrollFlags="scroll|exitUntilCollapsed"
+			>
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="278dp"
+				android:background="@color/colorAccent"
+				android:fitsSystemWindows="true"
+				>
+
+				<ImageView
+					android:id="@+id/imageView_background"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"/>
+
+				<TextView
+					android:id="@+id/textView_countOfOnChatPeople"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="92dp"
+					android:textColor="#fff"
+					android:textSize="14sp"/>
+
+				<View
+					android:layout_width="58dp"
+					android:layout_height="4dp"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="163dp"
+					android:background="@color/colorAccent"
+					/>
+
+				<Button
+					android:id="@+id/button_goToChat"
+					android:layout_width="150dp"
+					android:layout_height="36dp"
+					android:layout_gravity="bottom|center_horizontal"
+					android:layout_marginBottom="21dp"
+					android:background="@drawable/shape_radius44_fillfff"
+					android:text="전체 채팅 참여하기"
+					android:textColor="@color/colorAccent"/>
+
+			</FrameLayout>
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				app:layout_collapseMode="pin"
+				/>
+		</android.support.design.widget.CollapsingToolbarLayout>
+	</android.support.design.widget.AppBarLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recyclerView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clipToPadding="false"
+		android:padding="16dp"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		android:layout_margin="16dp"
+		android:background="@color/colorAccent"
+		android:src="@drawable/ic_add_white_24dp"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

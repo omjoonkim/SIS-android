@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_focused="true">
+		<layer-list >
+			<item
+				android:bottom="1dp"
+				android:left="-2dp"
+				android:right="-2dp"
+				android:top="-2dp">
+				<shape android:shape="rectangle" >
+					<stroke
+						android:width="0.5dp"
+						android:color="#FFFFFF" />
+
+					<solid android:color="#00FFFFFF" />
+
+					<padding android:left="3dp"
+							 android:right="3dp"
+							 android:top="3dp"
+							 android:bottom="3dp" />
+				</shape>
+			</item>
+
+		</layer-list>
+	</item>
+	<item>
+		<layer-list >
+			<item
+				android:bottom="1dp"
+				android:left="-2dp"
+				android:right="-2dp"
+				android:top="-2dp">
+				<shape android:shape="rectangle" >
+					<stroke
+						android:width="0.5dp"
+						android:color="#BCBCBC" />
+
+					<solid android:color="#00FFFFFF" />
+
+					<padding android:left="3dp"
+							 android:right="3dp"
+							 android:top="3dp"
+							 android:bottom="3dp" />
+				</shape>
+			</item>
+
+		</layer-list>
+	</item>
+
+</selector>

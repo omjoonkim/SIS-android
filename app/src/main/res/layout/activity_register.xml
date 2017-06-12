@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/colorPrimary">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<android.support.design.widget.AppBarLayout
+			android:id="@+id/appBarLayout"
+			android:layout_width="match_parent"
+			android:layout_height="56dp"
+			app:elevation="0dp">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@color/colorPrimary"/>
+		</android.support.design.widget.AppBarLayout>
+
+
+		<EditText
+			android:id="@+id/editText_id"
+			android:layout_width="match_parent"
+			android:layout_height="38dp"
+			android:layout_marginBottom="16dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:layout_marginTop="16dp"
+			android:background="#16ffffff"
+			android:hint="이메일"
+			android:inputType="textEmailAddress"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:textColor="#fff"
+			android:textColorHint="@color/textHintColor"
+			android:textCursorDrawable="@null"/>
+
+		<EditText
+			android:id="@+id/editText_name"
+			android:layout_width="match_parent"
+			android:layout_height="38dp"
+			android:layout_marginBottom="16dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:background="#16ffffff"
+			android:hint="닉네임"
+			android:inputType="textNoSuggestions"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:singleLine="true"
+			android:textColor="#fff"
+			android:textColorHint="@color/textHintColor"
+			android:textCursorDrawable="@null"/>
+
+		<EditText
+			android:id="@+id/editText_password"
+			android:layout_width="match_parent"
+			android:layout_height="38dp"
+			android:layout_marginBottom="16dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:background="#16ffffff"
+			android:hint="비밀번호"
+			android:inputType="textPassword"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:singleLine="true"
+			android:textColor="#fff"
+			android:textColorHint="@color/textHintColor"
+			android:textCursorDrawable="@null"/>
+
+		<EditText
+			android:id="@+id/editText_password_confirm"
+			android:layout_width="match_parent"
+			android:layout_height="38dp"
+			android:layout_marginBottom="61dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:background="#16ffffff"
+			android:hint="비밀번호 확인"
+			android:inputType="textPassword"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:singleLine="true"
+			android:textColor="#fff"
+			android:textColorHint="@color/textHintColor"
+			android:textCursorDrawable="@null"/>
+
+		<Button
+			android:id="@+id/button_register"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:background="@drawable/selector_button"
+			android:enabled="false"
+			android:text="회원가입"
+			android:textColor="@drawable/selector_button_text"/>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@color/colorAccent">
+
+	<ImageView
+		android:id="@+id/imageView_background"
+		android:scaleType="centerCrop"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		app:elevation="0dp">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+	</android.support.design.widget.AppBarLayout>
+
+	<TextView
+		android:id="@+id/textView_image"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="16dp"
+		android:layout_above="@+id/editText_name"
+		android:text="사진"
+		android:textSize="14sp"
+		android:textColor="#fff"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<EditText
+		android:id="@+id/editText_name"
+		android:layout_width="match_parent"
+		android:layout_height="36dp"
+		android:layout_centerInParent="true"
+		android:layout_marginLeft="36dp"
+		android:layout_marginRight="36dp"
+		android:background="@drawable/selector_edittext_tintcolor"
+		android:hint="이름을 입력해 주세요."
+		android:inputType="textNoSuggestions"
+		android:maxLength="36"
+		android:singleLine="true"
+		android:textColor="#fff"
+		android:textColorHint="@color/textHintColor"
+		android:textCursorDrawable="@null"
+		android:textSize="22sp"/>
+
+	<TextView
+		android:id="@+id/textView_length"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/editText_name"
+		android:layout_marginRight="36dp"
+		android:layout_marginTop="6dp"
+		android:text="36"
+		android:textColor="#4dffffff"
+		android:textSize="12sp"/>
+
+	<TextView
+		android:id="@+id/textView_help"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/editText_name"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="34dp"
+		android:textColor="#ccffffff"
+		android:textSize="10sp"/>
+
+</RelativeLayout>

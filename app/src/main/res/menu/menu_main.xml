@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/action_like"
+		android:icon="@drawable/selector_ic_like"
+		android:title=""
+		app:showAsAction="always"
+		/>
+
+	<item
+		android:id="@+id/action_chat"
+		android:icon="@drawable/group"
+		android:title=""
+		app:showAsAction="always"
+		/>
+	<item
+		android:id="@+id/action_logout"
+		android:title="로그아웃"
+		/>
+</menu>

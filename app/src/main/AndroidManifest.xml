@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.eighthour.makers.sis"
+		  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+	<application
+		android:name="com.eighthour.makers.sis.common.App"
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name="com.eighthour.makers.sis.ui.SplashActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name="com.eighthour.makers.sis.ui.LoginActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+
+		<activity
+			android:name="com.eighthour.makers.sis.ui.RegisterActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+
+		<activity
+			android:name="com.eighthour.makers.sis.ui.MainActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+		<activity
+			android:name="com.eighthour.makers.sis.ui.ChatRoomActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+		<activity
+			android:name="com.eighthour.makers.sis.ui.ChildTopicListActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+		<activity
+			android:name="com.eighthour.makers.sis.ui.TopicCreateActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+
+		<activity
+			android:name="com.eighthour.makers.sis.ui.LikeTopicsActivity"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+			/>
+
+		<!--AlbumOfLib-->
+		<activity
+			android:name="com.yanzhenjie.album.AlbumActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+			android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+	</application>
+
+</manifest>
