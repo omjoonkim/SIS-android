@@ -1,8 +1,8 @@
-package com.eighthour.makers.sis.libs.server
+package com.eighthour.makers.sis.libs.network
 
-import com.eighthour.makers.sis.libs.model.ChatItem
-import com.eighthour.makers.sis.libs.model.Topic
-import com.eighthour.makers.sis.libs.model.User
+import com.eighthour.makers.sis.libs.network.model.ChatItem
+import com.eighthour.makers.sis.libs.network.model.Topic
+import com.eighthour.makers.sis.libs.network.model.User
 import io.reactivex.Completable
 import io.reactivex.Single
 

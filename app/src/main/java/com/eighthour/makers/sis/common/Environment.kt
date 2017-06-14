@@ -3,7 +3,7 @@ package com.eighthour.makers.sis.common
 import com.bumptech.glide.RequestManager
 import com.eighthour.makers.sis.libs.data.ChatRepositoryType
 import com.eighthour.makers.sis.libs.data.TopicRepositoryType
-import com.eighthour.makers.sis.libs.server.APIClientType
+import com.eighthour.makers.sis.libs.network.APIClientType
 import com.google.gson.Gson
 
 data class Environment(

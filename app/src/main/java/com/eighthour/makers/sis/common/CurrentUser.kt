@@ -1,6 +1,6 @@
 package com.eighthour.makers.sis.common
 
-import com.eighthour.makers.sis.libs.model.User
+import com.eighthour.makers.sis.libs.network.model.User
 import com.eighthour.makers.sis.libs.util.SharedPreferenceManager
 
 data class CurrentUser(var user: User? = null, val sharedPreferenceManager: SharedPreferenceManager) {

@@ -4,10 +4,10 @@ import android.content.Context
 import com.eighthour.makers.sis.common.BaseActivity
 import com.eighthour.makers.sis.common.BaseViewModel
 import com.eighthour.makers.sis.libs.util.fromJson
-import com.eighthour.makers.sis.libs.model.ChatItem
+import com.eighthour.makers.sis.libs.network.model.ChatItem
 import com.eighthour.makers.sis.libs.rx.Parameter
 import com.eighthour.makers.sis.libs.rx.neverError
-import com.eighthour.makers.sis.libs.server.APIService
+import com.eighthour.makers.sis.libs.network.APIService
 import com.eighthour.makers.sis.libs.util.toJson
 import com.eighthour.makers.sis.libs.util.Intents
 import com.eighthour.makers.sis.libs.util.getLongExtra

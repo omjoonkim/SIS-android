@@ -1,6 +1,6 @@
 package com.eighthour.makers.sis.libs.data
 
-import com.eighthour.makers.sis.libs.model.Topic
+import com.eighthour.makers.sis.libs.network.model.Topic
 import io.reactivex.Single
 
 

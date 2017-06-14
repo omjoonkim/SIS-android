@@ -10,10 +10,10 @@ import com.eighthour.makers.sis.libs.data.ChatRepository
 import com.eighthour.makers.sis.libs.data.ChatRepositoryType
 import com.eighthour.makers.sis.libs.data.TopicRepository
 import com.eighthour.makers.sis.libs.data.TopicRepositoryType
-import com.eighthour.makers.sis.libs.server.APIClient
-import com.eighthour.makers.sis.libs.server.APIClientType
-import com.eighthour.makers.sis.libs.server.APIRequestInterceptor
-import com.eighthour.makers.sis.libs.server.APIService
+import com.eighthour.makers.sis.libs.network.APIClient
+import com.eighthour.makers.sis.libs.network.APIClientType
+import com.eighthour.makers.sis.libs.network.APIRequestInterceptor
+import com.eighthour.makers.sis.libs.network.APIService
 import com.eighthour.makers.sis.libs.util.SharedPreferenceManager
 import com.google.gson.Gson
 import dagger.Module

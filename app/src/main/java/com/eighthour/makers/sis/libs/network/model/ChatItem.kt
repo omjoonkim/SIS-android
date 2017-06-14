@@ -1,16 +1,15 @@
-package com.eighthour.makers.sis.libs.model
+package com.eighthour.makers.sis.libs.network.model
 
 import com.eighthour.makers.sis.libs.util.toDate
 import com.eighthour.makers.sis.libs.util.toTimeText
-import com.google.gson.annotations.SerializedName
 
 data class ChatItem(
         var id: Long = -1,
         var user: User? = null,
         var content: String = "",
-        @SerializedName("topic_id")
+        @com.google.gson.annotations.SerializedName("topic_id")
         var topicId: Long = -1,
-        @SerializedName("timestamp")
+        @com.google.gson.annotations.SerializedName("timestamp")
         var timeStamp: String? = null
 ) {
     val dateTime: String? get() = timeStamp?.toDate()?.toTimeText()

@@ -3,7 +3,7 @@ package com.eighthour.makers.sis.viewmodels
 import android.content.Context
 import com.eighthour.makers.sis.common.BaseActivity
 import com.eighthour.makers.sis.common.BaseViewModel
-import com.eighthour.makers.sis.libs.model.Topic
+import com.eighthour.makers.sis.libs.network.model.Topic
 import com.eighthour.makers.sis.libs.rx.Parameter
 import com.eighthour.makers.sis.libs.rx.neverError
 import io.reactivex.Observable

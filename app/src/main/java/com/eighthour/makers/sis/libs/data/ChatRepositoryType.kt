@@ -1,6 +1,6 @@
 package com.eighthour.makers.sis.libs.data
 
-import com.eighthour.makers.sis.libs.model.ChatItem
+import com.eighthour.makers.sis.libs.network.model.ChatItem
 import io.reactivex.Single
 
 

@@ -12,7 +12,7 @@ import com.eighthour.makers.sis.common.App
 import com.eighthour.makers.sis.common.BaseActivity
 import com.eighthour.makers.sis.common.RequiresActivityViewModel
 import com.eighthour.makers.sis.libs.util.findWithIndex
-import com.eighthour.makers.sis.libs.model.Topic
+import com.eighthour.makers.sis.libs.network.model.Topic
 import com.eighthour.makers.sis.libs.util.setImageWithGlide
 import com.eighthour.makers.sis.libs.util.Intents
 import com.eighthour.makers.sis.viewmodels.LikeTopicsViewModel

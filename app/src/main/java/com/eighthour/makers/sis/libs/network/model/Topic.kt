@@ -1,4 +1,4 @@
-package com.eighthour.makers.sis.libs.model
+package com.eighthour.makers.sis.libs.network.model
 
 import com.google.gson.annotations.SerializedName
 

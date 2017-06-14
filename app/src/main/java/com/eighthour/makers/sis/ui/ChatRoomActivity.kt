@@ -13,7 +13,7 @@ import com.eighthour.makers.sis.common.BaseActivity
 import com.eighthour.makers.sis.common.CurrentUser
 import com.eighthour.makers.sis.common.RequiresActivityViewModel
 import com.eighthour.makers.sis.libs.util.addTextWatcher
-import com.eighthour.makers.sis.libs.model.ChatItem
+import com.eighthour.makers.sis.libs.network.model.ChatItem
 import com.eighthour.makers.sis.libs.rx.Parameter
 import com.eighthour.makers.sis.libs.util.toDp
 import com.eighthour.makers.sis.viewmodels.ChatRoomViewModel

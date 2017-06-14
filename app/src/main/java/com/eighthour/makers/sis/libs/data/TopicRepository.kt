@@ -1,8 +1,8 @@
 package com.eighthour.makers.sis.libs.data
 
-import com.eighthour.makers.sis.libs.model.Topic
+import com.eighthour.makers.sis.libs.network.model.Topic
 import com.eighthour.makers.sis.libs.rx.neverError
-import com.eighthour.makers.sis.libs.server.APIClientType
+import com.eighthour.makers.sis.libs.network.APIClientType
 import io.reactivex.Single
 import io.reactivex.rxkotlin.toSingle
 
