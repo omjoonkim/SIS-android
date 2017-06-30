@@ -56,10 +56,10 @@ dependencies {
     compile "org.jetbrains.anko:anko-recyclerview-v7:$anko_version"
 
     //retrofit
-    compile 'com.squareup.retrofit2:retrofit:2.2.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
-    compile 'com.squareup.okhttp3:okhttp:3.7.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
 
     //rx
