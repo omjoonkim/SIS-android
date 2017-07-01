@@ -2,11 +2,11 @@
 
 S!S의 Android 어플리케이션
 
-S!S는 단체채팅방 속 단체채팅방 속 단체채팅방의 메커니즘이 반복되는 새로운 개념의 
+S!S는 단체채팅방 속 단체채팅방 속 단체채팅방의 메커니즘이 반복되는 새로운 개념의
 
-SNS이다. 
+SNS이다.
 
-
+[![plaore-button](https://cloud.githubusercontent.com/assets/5692567/10923351/6b688a92-8278-11e5-9973-8ffbf3c5cc52.png)](https://play.google.com/store/apps/details?id=com.eighthour.makers.amoabachat&utm_source=www.apkforandroid.top)
 
 ## 구조
 
@@ -26,27 +26,9 @@ https://github.com/omjoonkim/SIS-android/issues  에 올려주세요!!
 
 ### EightHourMakers: https://github.com/8hourmakers
 
-- **DaeHyon,Back** ([https://github.com/bdh1011](mailto:crjang91@gmail.com)) 
+- **DaeHyon,Back** ([https://github.com/bdh1011](mailto:crjang91@gmail.com))
   - Server (https://github.com/8hourmakers/amoeba-chatting/tree/master/server)
-- **BeomJoon,Kim** (https://github.com/omjoonkim) 
-  - Android 
+- **BeomJoon,Kim** (https://github.com/omjoonkim)
+  - Android
 - **SeokJu,Na** ([https://github.com/seokju-na](mailto:cmdhema@gmail.com))
   - Web (https://github.com/8hourmakers/amoeba-chatting/tree/master/web)
-
-
-
-## License
-
-```
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
